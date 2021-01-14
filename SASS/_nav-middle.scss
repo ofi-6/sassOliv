@@ -1,0 +1,18 @@
+.nav-middle {
+  background-color: $pink-sass;
+  @include monFCenter;
+  color: #fff;
+  margin-top: 5rem;
+  padding: 2rem 0;
+
+  ul {
+    @include monFCenter;
+
+    li {
+      margin: 0 2rem;
+    }
+  }
+  a {
+    font-weight: 700;
+  }
+}

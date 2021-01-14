@@ -1,0 +1,21 @@
+@mixin monFbetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin monFCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin dFlexWrap($method) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: $method;
+}
+//  @mixin colorier($mycolor; $arg2 $arg3) {
+@mixin colorier($mycolor) {
+  font-size: 5rem;
+  color: $mycolor;
+}

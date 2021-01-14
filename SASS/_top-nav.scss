@@ -1,0 +1,31 @@
+.top-nav 
+// ouvre A
+{
+  // display: flex;
+  // justify-content: space-between;
+  // align-items: center;
+
+  @include monFbetween
+    // remarque a aprtir dici on parle des elementrs dans top-nav car on a pas fermé {}
+    // ceci NE MARCHE PAS EN CSS
+    img {
+    height: 5rem;
+  }
+  // ci dessous & remplace top-nav  &__list remplace top-nav__list
+  &__list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    li {
+      margin-left: 3rem;
+    }
+    a {
+      color: $pink-sass;
+    }
+    input {
+      padding: 3rem;
+    }
+  }
+  // ci dessous ferme A
+}

@@ -1,0 +1,14 @@
+.articles {
+  @include dFlexWrap(wrap);
+  // autre possible @include dFlexWrap(nowrap);
+  padding: 4rem;
+  article {
+    width: 30%;
+    margin-bottom: 2 rem;
+  }
+  p {
+    // @include colorier(coral);
+    // on peut utiliser ici une variable
+    //    @include colorier( $pinksass);
+  }
+}

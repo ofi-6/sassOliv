@@ -1,0 +1,16 @@
+.monheader {
+  margin-top: 5rem;
+
+  h1 {
+    font-size: 5rem;
+    text-align: center;
+  }
+  // ci dessous equivaut à monheader__tout
+  &__tout {
+    @include monFbetween;
+
+    img {
+      width: 20%;
+    }
+  }
+}
